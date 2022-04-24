@@ -1,5 +1,7 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>
+      This is an implementation of pomodoro timer in vue using a web worker
+    </h1>
   </div>
 </template>
