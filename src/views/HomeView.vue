@@ -66,7 +66,8 @@
 </template>
 
 <script>
-const worker = window.Worker ? new Worker("/worker.js") : undefined;
+import Worker from "worker-loader!../workers/worker.js";
+const worker = window.Worker ? new Worker() : undefined;
 export default {
   name: "HomeView",
   data() {
